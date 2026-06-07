@@ -1,8 +1,8 @@
 # Web Development Project 1 - *Name of App Here*
 
-Submitted by: **Your Name Here**
+Submitted by: **Devarajan Palaniappan**
 
-This web app: **insert description**
+This web app: **Board Game Community Board**
 
 Time spent: **X** hours spent in total
 
@@ -10,18 +10,18 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] **The app has a cohesive, unique theme for events or resources relevant to a specific community**
-  - [ ] Header/title describing the theme is displayed
-- [ ] **At least 10 unique events or resources are displayed in a responsive card format**
-  - [ ] There are at least 10 cards displayed for 10 different events 
-  - [ ] The cards should be displayed in an organized format (ex. a grid, or in one line)
-  - [ ] Each card should include some information about the event or resource
+- [X] **The app has a cohesive, unique theme for events or resources relevant to a specific community**
+  - [X] Header/title describing the theme is displayed
+- [X] **At least 10 unique events or resources are displayed in a responsive card format**
+  - [X] There are at least 10 cards displayed for 10 different events 
+  - [X] The cards should be displayed in an organized format (ex. a grid, or in one line)
+  - [X] Each card should include some information about the event or resource
 
 
 The following **optional** features are implemented:
 
-- [ ] Buttons or links to a related resources are on each card component
-  - [ ] All cards have buttons or links in addition to text
+- [X] Buttons or links to a related resources are on each card component
+  - [X] All cards have buttons or links in addition to text
 - [ ] The site is responsive for both desktop and mobile formats
   - [ ] Web app is shown in a mobile format
   - [ ] **Video Walkthrough Special Instructions**: To ease the grading process, please use Chrome Developer Tools' "Toggle Device" button to demonstrate that your web application's responsiveness in both a desktop *and* a mobile format. Detailed instructions can be found below this stretch feature on the project page. 
@@ -45,11 +45,12 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Main Challenges was with css and image format as the board game images had different sizes and i wanted the cards to be close together 
+and not have too a large gap between rpows so I learned that rather than using flex or grid I could use colun count for my oclumns adn then for the Card specifically make sure that the card had break inside: avoid and displaay inline block so that the card didn't have to be cut.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2026] [Devarajan Palaniappan]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
